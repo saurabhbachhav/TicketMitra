@@ -42,7 +42,7 @@ function App() {
       <div className="sticky top-0 z-50">
         <Navbar />
       </div>
-      <div className="h-[calc(100%_-_4rem)] flex">
+      <div className="h-screen flex">
         <div className="w-1/6 border-solid border divide-gray-300 bg-gradient-to-b from-[#E6F0FF] via-[#99CCFF] to-[#0066CC] overflow-y-scroll no-scrollbar">
           {name.map((item) => (
             <Allcityname cityname={item} key={item} />
