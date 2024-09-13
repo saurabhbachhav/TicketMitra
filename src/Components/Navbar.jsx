@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom"; // Import Link for routing
+import { Link } from "react-router-dom";
 import ChatBots from "../assets/ChatBots.png";
 
 function Navbar() {
@@ -46,7 +46,7 @@ function Navbar() {
               <Link
                 to="/AboutUs"
                 className="text-lg font-medium hover:text-[#99CCFF] flex items-center"
-                >
+              >
                 About
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -89,11 +89,14 @@ function Navbar() {
           {/* Action Buttons */}
           <div className="hidden lg:flex space-x-4">
             <button className="bg-transparent border border-[#FFFFFF] px-4 py-2 rounded-md text-[#FFFFFF] hover:bg-[#99CCFF] transition">
-              Sign In
+              <Link to="/SignIn">Sign In</Link>
             </button>
-            <button className="bg-[#0066CC] px-4 py-2 rounded-md text-white hover:bg-[#004080] transition">
-              Log In
-            </button>
+            <Link to="/Login">
+              {" "}
+              <button className="bg-[#0066CC] px-4 py-2 rounded-md text-white hover:bg-[#004080] transition">
+                Log In
+              </button>
+            </Link>
           </div>
 
           {/* User Icon */}

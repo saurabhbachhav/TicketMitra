@@ -6,6 +6,8 @@ import { Route, Routes } from "react-router-dom";
 import Contact from "./Contact";
 import AboutUs from "./AboutUs";
 import Home from "./Home";
+import SignIn from "./SignIn";
+import Login from "./Login";
 
 function Display() {
   return (
@@ -13,6 +15,8 @@ function Display() {
       <div className="h-fit p-4">
         <Routes>
           <Route path="/Home" element={<Home />} />
+          <Route path="/SignIn" element={<SignIn />} />
+          <Route path="/Login" element={<Login />} />
           <Route path="/Displaycards" element={<Displaycards />} />
           <Route path="/booking" element={<Booking />} />
           <Route path="/Musiumpage" element={<Musiumpage />} />
