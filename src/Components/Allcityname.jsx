@@ -3,11 +3,11 @@ import { Link } from "react-router-dom";
 
 function Allcityname(props) {
   return (
-    <div>
+    <div className="p-2">
       <Link to="/">
         <button
           type="button"
-          className="border-solid border-2 border-black bg-slate-500 text-sm font-semibold text-white shadow-sm hover:bg-black hover-shadow-2xl focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black w-full h-16 mt-1"
+          className="border-2 border-teal-600 bg-teal-500 text-sm font-semibold text-white shadow-md hover:bg-teal-600 hover:shadow-lg transition duration-300 ease-in-out transform hover:scale-105 focus:outline-none w-full h-14 rounded-md mb-2"
         >
           {props.cityname}
         </button>

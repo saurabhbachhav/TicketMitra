@@ -1,32 +1,19 @@
 import React from "react";
-import Inputmessage from "./Inputmessage";
 import Displaycards from "./Displaycards";
-import Chatbot from "./Chatbot";
 import Musiumpage from "./Musiumpage";
-import MusiumpageDes from "./MusiumpageDes";
-import { Route, Router, Routes } from "react-router-dom";
 import Booking from "./Booking";
+import { Route, Routes } from "react-router-dom";
 
-function Display(props) {
+function Display() {
   return (
-    <div className=" w-5/6 border-solid border divide-red-600 bg-orange-200 overflow-y-auto no-scrollbar">
-      <div className="h-[90%]">
+    <div className="w-5/6 bg-gradient-to-r from-blue-50 via-teal-50 to-cyan-50 overflow-y-auto no-scrollbar rounded-lg shadow-md">
+      <div className="h-fit p-4">
         <Routes>
           <Route path="/" element={<Displaycards />} />
           <Route path="/booking" element={<Booking />} />
           <Route path="/Musiumpage" element={<Musiumpage />} />
-        </Routes><div/>
-        <Displaycards />
-        <Displaycards />
-        <Displaycards />
-        {/* <Musiumpage />
-        <MusiumpageDes />
-        <Displaycards />
-        <Displaycards />
-        <Displaycards /> */}
-        {/* <Chatbot/> */}
+        </Routes>
       </div>
-      {/* <Inputmessage /> */}
     </div>
   );
 }
