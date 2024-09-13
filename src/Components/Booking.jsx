@@ -12,7 +12,7 @@ function Booking() {
           Have any questions or need assistance with booking? Chat with our
           virtual assistant below!
         </p>
-        <Chatbot />
+        {/* <Chatbot /> */}
       </div>
     </div>
   );
