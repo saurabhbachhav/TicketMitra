@@ -23,7 +23,7 @@ function Navbar() {
           <ul className="hidden lg:flex space-x-8">
             <li>
               <Link
-                to="/Home"
+                to="/"
                 className="text-lg font-medium hover:text-[#99CCFF] flex items-center"
               >
                 Home

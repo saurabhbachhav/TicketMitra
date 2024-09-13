@@ -14,7 +14,7 @@ function Display() {
     <div className="w-5/6 bg-gradient-to-r from-[#E6F0FF] via-[#99CCFF] to-[#0066CC] overflow-y-auto no-scrollbar rounded-lg shadow-md relative">
       <div className="h-fit p-4">
         <Routes>
-          <Route path="/Home" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/SignIn" element={<SignIn />} />
           <Route path="/Login" element={<Login />} />
           <Route path="/Displaycards" element={<Displaycards />} />

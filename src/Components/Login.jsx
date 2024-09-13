@@ -13,7 +13,7 @@ function Login() {
           and new features coming soon!
         </p>
         <div className="text-center">
-          <Link to='..\Home'>
+          <Link to='..\'>
             <button className="bg-[#0066CC] hover:bg-[#003366] text-white font-bold py-2 px-6 rounded-lg transition duration-300">
               Go Back to Home
             </button>
