@@ -3,7 +3,7 @@ import ChatBots from "../assets/ChatBots.png";
 
 function Navbar() {
   return (
-    <div className="bg-gradient-to-r from-teal-800 to-teal-600 text-white shadow-lg">
+    <div className="bg-gradient-to-r from-[#003366] to-[#0066CC] text-[#FFFFFF] shadow-lg">
       <div className="mx-auto max-w-7xl px-4 py-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center">
           {/* Logo and Brand */}
@@ -13,7 +13,7 @@ function Navbar() {
               alt="ChatBots Logo"
               className="h-12 w-12 rounded-full"
             />
-            <span className="text-3xl font-bold hover:text-teal-300">
+            <span className="text-3xl font-bold hover:text-[#99CCFF]">
               TicketMitra
             </span>
           </div>
@@ -23,7 +23,7 @@ function Navbar() {
             <li>
               <a
                 href="#"
-                className="text-lg font-medium hover:text-teal-300 flex items-center"
+                className="text-lg font-medium hover:text-[#99CCFF] flex items-center"
               >
                 Home
                 <svg
@@ -44,7 +44,7 @@ function Navbar() {
             <li>
               <a
                 href="#"
-                className="text-lg font-medium hover:text-teal-300 flex items-center"
+                className="text-lg font-medium hover:text-[#99CCFF] flex items-center"
               >
                 About
                 <svg
@@ -65,7 +65,7 @@ function Navbar() {
             <li>
               <a
                 href="#"
-                className="text-lg font-medium hover:text-teal-300 flex items-center"
+                className="text-lg font-medium hover:text-[#99CCFF] flex items-center"
               >
                 Contact
                 <svg
@@ -87,18 +87,18 @@ function Navbar() {
 
           {/* Action Buttons */}
           <div className="hidden lg:flex space-x-4">
-            <button className="bg-transparent border border-white px-4 py-2 rounded-md text-white hover:bg-teal-300 transition">
+            <button className="bg-transparent border border-[#FFFFFF] px-4 py-2 rounded-md text-[#FFFFFF] hover:bg-[#99CCFF] transition">
               Sign In
             </button>
-            <button className="bg-teal-300 px-4 py-2 rounded-md text-white hover:bg-teal-400 transition">
+            <button className="bg-[#0066CC] px-4 py-2 rounded-md text-white hover:bg-[#004080] transition">
               Log In
             </button>
           </div>
 
           {/* User Icon */}
-          <div className="h-10 w-10 rounded-full overflow-hidden border-2 border-white">
+          <div className="h-10 w-10 rounded-full overflow-hidden border-2 border-[#FFFFFF]">
             <img
-              src="https://images.rawpixel.com/image_png_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTAxL3JtNjA5LXNvbGlkaWNvbi13LTAwMi1wLnBuZw.png"
+              src="https://cdn-icons-png.freepik.com/512/4645/4645949.png"
               alt="User Avatar"
               className="h-full w-full object-cover"
             />

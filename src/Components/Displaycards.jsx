@@ -4,7 +4,7 @@ import Card from "./Card";
 
 function Displaycards() {
   return (
-    <div className="flex overflow-x-auto no-scrollbar space-x-4 p-4 bg-gradient-to-r from-teal-50 via-cyan-50 to-blue-50 rounded-lg shadow-lg">
+    <div className="flex overflow-x-auto no-scrollbar space-x-4 p-4 bg-gradient-to-r from-[#E6F0FF] via-[#99CCFF] to-[#0066CC] rounded-lg shadow-lg">
       {cardsData.map((item, index) => (
         <Card
           key={index}

@@ -14,10 +14,10 @@ function Musiumpage() {
   };
 
   return (
-    <div className="h-screen bg-gradient-to-r from-blue-50 via-teal-50 to-cyan-50 overflow-auto">
-      <div className="flex justify-between items-center p-5 bg-gradient-to-r from-teal-600 via-teal-400 to-teal-300 rounded-lg shadow-lg">
+    <div className="h-screen bg-gradient-to-r from-[#E6F0FF] via-[#99CCFF] to-[#0066CC] overflow-auto">
+      <div className="flex justify-between items-center p-5 bg-gradient-to-r from-[#003366] via-[#0066CC] to-[#003366] rounded-lg shadow-lg">
         <button
-          className="bg-white hover:bg-gray-100 rounded-full p-2 text-gray-800"
+          className="bg-white hover:bg-[#E6F0FF] rounded-full p-2 text-[#003366]"
           onClick={prevSlide}
           aria-label="Previous Slide"
         >
@@ -52,7 +52,7 @@ function Musiumpage() {
         </div>
 
         <button
-          className="bg-white hover:bg-gray-100 rounded-full p-2 text-gray-800"
+          className="bg-white hover:bg-[#E6F0FF] rounded-full p-2 text-[#003366]"
           onClick={nextSlide}
           aria-label="Next Slide"
         >
@@ -73,12 +73,12 @@ function Musiumpage() {
         </button>
       </div>
 
-      <div className="p-5 text-gray-900">
-        <h1 className="text-3xl font-semibold mb-4 leading-relaxed text-teal-900">
+      <div className="p-5 text-[#000000]">
+        <h1 className="text-3xl font-semibold mb-4 leading-relaxed text-[#003366]">
           Welcome to the Grand Museum of Art and Culture
         </h1>
 
-        <p className="text-base leading-relaxed text-gray-700">
+        <p className="text-base leading-relaxed text-[#333333]">
           Step into a world of creativity and history where art meets culture.
           Our museum offers a vast collection of exhibits that reflect the
           beauty of human expression across centuries. Be captivated by rare
@@ -89,7 +89,7 @@ function Musiumpage() {
           <Link to="/booking">
             <button
               type="button"
-              className="rounded-md bg-teal-600 px-4 py-2 text-sm font-semibold text-white shadow-md hover:bg-teal-700 transition-transform duration-300 ease-in-out transform hover:scale-105"
+              className="rounded-md bg-[#0066CC] px-4 py-2 text-sm font-semibold text-white shadow-md hover:bg-[#003366] transition-transform duration-300 ease-in-out transform hover:scale-105"
             >
               Reserve Your Tickets
             </button>
