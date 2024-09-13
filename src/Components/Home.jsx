@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 const Home = () => {
   return (
     <div className="bg-background text-text">
@@ -13,12 +13,12 @@ const Home = () => {
             Discover art, history, and culture with ease. Explore our exhibits
             and book your tickets online.
           </p>
-          <a
-            href="/Booking"
+          <Link
+            to="/booking"
             className="bg-secondary text-blue-700 py-3 px-8 rounded-lg font-semibold hover:bg-accent transition duration-300"
           >
             Book Tickets
-          </a>
+          </Link>
         </div>
       </header>
       {/* Features Section */}
@@ -75,12 +75,12 @@ const Home = () => {
                 <p className="text-text mb-4">
                   Brief description of the exhibit.
                 </p>
-                <a
-                  href="/exhibit/1"
+                <Link
+                  to="/exhibit/1"
                   className="text-secondary font-semibold hover:underline"
                 >
                   Learn More
-                </a>
+                </Link>
               </div>
             </div>
             <div className="w-full md:w-1/3 px-4 mb-8">
@@ -91,12 +91,12 @@ const Home = () => {
                 <p className="text-text mb-4">
                   Brief description of the exhibit.
                 </p>
-                <a
-                  href="/exhibit/2"
+                <Link
+                  to="/exhibit/2"
                   className="text-secondary font-semibold hover:underline"
                 >
                   Learn More
-                </a>
+                </Link>
               </div>
             </div>
             <div className="w-full md:w-1/3 px-4 mb-8">
@@ -107,12 +107,12 @@ const Home = () => {
                 <p className="text-text mb-4">
                   Brief description of the exhibit.
                 </p>
-                <a
-                  href="/exhibit/3"
+                <Link
+                  to="/exhibit/3"
                   className="text-secondary font-semibold hover:underline"
                 >
                   Learn More
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -124,13 +124,13 @@ const Home = () => {
         <div className="container mx-auto px-4">
           <p>&copy; {new Date().getFullYear()} BitBots. All rights reserved.</p>
           <div className="mt-4">
-            <a href="/contact" className="text-slate-950 hover:underline">
+            <Link to="/contact" className="text-slate-950 hover:underline">
               Contact Us
-            </a>{" "}
+            </Link>{" "}
             |
-            <a href="/about" className="text-slate-950 hover:underline ml-4">
+            <Link to="/about" className="text-slate-950 hover:underline ml-4">
               About Us
-            </a>
+            </Link>
           </div>
         </div>
       </footer>
