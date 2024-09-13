@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom"; // Import Link for routing
 import ChatBots from "../assets/ChatBots.png";
 
 function Navbar() {
@@ -21,8 +22,8 @@ function Navbar() {
           {/* Links */}
           <ul className="hidden lg:flex space-x-8">
             <li>
-              <a
-                href="#"
+              <Link
+                to="/Home"
                 className="text-lg font-medium hover:text-[#99CCFF] flex items-center"
               >
                 Home
@@ -39,13 +40,13 @@ function Navbar() {
                 >
                   <polyline points="6 9 12 15 18 9" />
                 </svg>
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="#"
+              <Link
+                to="/AboutUs"
                 className="text-lg font-medium hover:text-[#99CCFF] flex items-center"
-              >
+                >
                 About
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -60,11 +61,11 @@ function Navbar() {
                 >
                   <polyline points="6 9 12 15 18 9" />
                 </svg>
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="#"
+              <Link
+                to="/Contact"
                 className="text-lg font-medium hover:text-[#99CCFF] flex items-center"
               >
                 Contact
@@ -81,7 +82,7 @@ function Navbar() {
                 >
                   <polyline points="6 9 12 15 18 9" />
                 </svg>
-              </a>
+              </Link>
             </li>
           </ul>
 
