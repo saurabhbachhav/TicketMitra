@@ -128,7 +128,7 @@ const Home = () => {
               Contact Us
             </Link>{" "}
             |
-            <Link to="/about" className="text-slate-950 hover:underline ml-4">
+            <Link to="/AboutUs" className="text-slate-950 hover:underline ml-4">
               About Us
             </Link>
           </div>
